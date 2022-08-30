@@ -1,11 +1,11 @@
 import * as React from "react";
-import QuizBlock from "./components/quiz/QuizBlock";
+import FirstScrin from "./components/firstScreen/FirstScrin";
 import "./index.scss";
 
 function App() {
   return (
     <>
-      <QuizBlock />
+      <FirstScrin />
     </>
   );
 }
