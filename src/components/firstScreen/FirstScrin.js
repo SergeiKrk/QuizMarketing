@@ -1,11 +1,11 @@
 import React from "react";
 import QuizBlock from "../quiz/QuizBlock";
-import NavBar from "./NavBar";
+import ResponsiveAppBar from "./ResponsiveAppBar";
 
 function FirstScrin() {
   return (
     <>
-      <NavBar />
+      <ResponsiveAppBar />
       <QuizBlock />
     </>
   );
